@@ -12,6 +12,9 @@ step1: download compiler and set PATH environment
 
 step2: cd trunk/git/mbed-client-linux-example
 
+#set target device
+yotta target x86-linux-native
+
 #clean up code
 yotta clean
 
