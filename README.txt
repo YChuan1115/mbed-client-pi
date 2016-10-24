@@ -13,7 +13,7 @@ step1: download compiler and set PATH environment
 step2: cd trunk/git/mbed-client-linux-example
 
 #set target device
-yotta target x86-linux-native
+yotta target arm-linux-native
 
 #clean up code
 yotta clean
@@ -27,7 +27,7 @@ Note: you have to go to the mDS and login, and then generate the "DEVICE SECURIT
 How to Execute
 ===================
 
-cd  mbed-client-linux-example/build/x86-linux-native/source
+cd  mbed-client-linux-example/build/arm-linux-native/source
 ./mbed-client-linux-example
 
 
